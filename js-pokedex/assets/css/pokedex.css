@@ -1,0 +1,561 @@
+.pokemons {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.normal {
+    background: linear-gradient(270deg, #9fa152, #6e7300);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationNormal 11s ease infinite;
+    -moz-animation: AnimationNormal 11s ease infinite;
+    animation: AnimationNormal 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationNormal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationNormal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationNormal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.grass {
+    background: linear-gradient(270deg, #6fd83e, #008915);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationGrass 11s ease infinite;
+    -moz-animation: AnimationGrass 11s ease infinite;
+    animation: AnimationGrass 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationGrass {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationGrass {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationGrass {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.fire {
+    background: linear-gradient(270deg, #ff7c1e, #f23300);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationFire 11s ease infinite;
+    -moz-animation: AnimationFire 11s ease infinite;
+    animation: AnimationFire 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationFire {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationFire {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationFire {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.water {
+    background: linear-gradient(270deg, #3c76ff, #0338b6);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationWater 11s ease infinite;
+    -moz-animation: AnimationWater 11s ease infinite;
+    animation: AnimationWater 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationWater {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationWater {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationWater {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.electric {
+    background: linear-gradient(270deg, #ffcc00, #ffe100);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationElectric 11s ease infinite;
+    -moz-animation: AnimationElectric 11s ease infinite;
+    animation: AnimationElectric 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationElectric {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationElectric {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationElectric {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.ice {
+    background: linear-gradient(270deg, #6fd8db, #8c8c8c);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationIce 11s ease infinite;
+    -moz-animation: AnimationIce 11s ease infinite;
+    animation: AnimationIce 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationIce {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationIce {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationIce {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.ground {
+    background: linear-gradient(270deg, #f8cd57, #af8101);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationGround 11s ease infinite;
+    -moz-animation: AnimationGround 11s ease infinite;
+    animation: AnimationGround 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationGround {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationGround {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationGround {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.flying {
+    background: linear-gradient(270deg, #a086e8, #392a5e);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationFlying 11s ease infinite;
+    -moz-animation: AnimationFlying 11s ease infinite;
+    animation: AnimationFlying 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationFlying {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationFlying {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationFlying {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.poison {
+    background: linear-gradient(270deg, #ca51ca, #4f004f);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationPoison 11s ease infinite;
+    -moz-animation: AnimationPoison 11s ease infinite;
+    animation: AnimationPoison 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationPoison {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationPoison {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationPoison {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.fighting {
+    background: linear-gradient(270deg, #e93c33, #660500);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationFighting 11s ease infinite;
+    -moz-animation: AnimationFighting 11s ease infinite;
+    animation: AnimationFighting 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationFighting {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationFighting {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationFighting {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.psychic {
+    background: linear-gradient(270deg, #e8396d, #bc003a);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationPsychic 11s ease infinite;
+    -moz-animation: AnimationPsychic 11s ease infinite;
+    animation: AnimationPsychic 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationPsychic {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationPsychic {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationPsychic {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.dark {
+    background: linear-gradient(270deg, #8a6b56, #1e1d1d);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationDark 11s ease infinite;
+    -moz-animation: AnimationDark 11s ease infinite;
+    animation: AnimationDark 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationDark {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationDark {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationDark {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.rock {
+    background: linear-gradient(270deg, #a38d2b, #695700);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationRock 11s ease infinite;
+    -moz-animation: AnimationRock 11s ease infinite;
+    animation: AnimationRock 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationRock {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationRock {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationRock {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.bug {
+    background: linear-gradient(270deg, #a5b426, #657000);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationBug 11s ease infinite;
+    -moz-animation: AnimationBug 11s ease infinite;
+    animation: AnimationBug 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationBug {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationBug {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationBug {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.ghost {
+    background: linear-gradient(270deg, #5d4689, #1c004f);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationGhost 11s ease infinite;
+    -moz-animation: AnimationGhost 11s ease infinite;
+    animation: AnimationGhost 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationGhost {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationGhost {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationGhost {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.steel {
+    background: linear-gradient(270deg, #8f8ac2, #413f57);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationSteel 11s ease infinite;
+    -moz-animation: AnimationSteel 11s ease infinite;
+    animation: AnimationSteel 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationSteel {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationSteel {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationSteel {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.dragon {
+    background: linear-gradient(270deg, #8f66f5, #46356d);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationDragon 11s ease infinite;
+    -moz-animation: AnimationDragon 11s ease infinite;
+    animation: AnimationDragon 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationDragon {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationDragon {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationDragon {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.fairy {
+    background: linear-gradient(270deg, #ef6191, #f40051);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationFairy 11s ease infinite;
+    -moz-animation: AnimationFairy 11s ease infinite;
+    animation: AnimationFairy 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationFairy {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationFairy {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationFairy {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.pokemon .number {
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    font-size: .625rem;
+}
+
+.pokemon .name {
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: .25rem;
+}
+
+.pokemon .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pokemon .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon .detail .types .type {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.pokemon .detail img {
+    max-width: 100%;
+    height: 70px;
+}
+
+.pokemon .detail span{
+    color: white;
+    padding-left: 0;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
+@media screen and (min-width: 380px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr;
+    }
+    .pokemon .detail .types {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-size: .925rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .pokemon .detail .types {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-size: .925rem;
+    }
+}
+
+@media screen and (min-width: 776px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
